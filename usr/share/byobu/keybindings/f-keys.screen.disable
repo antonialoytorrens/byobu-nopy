@@ -41,7 +41,6 @@ bind @ $BYOBU_BACKEND -t config 0 byobu-config
 bind $ $BYOBU_BACKEND -t status 0 byobu-status-detail
 # ctrl-a-!	Toggle f-key keybindings on
 register e ":source $BYOBU_PREFIX/share/byobu/keybindings/f-keys.screen^M"
-bind ! eval 'process x' 'process e' 'backtick 111 9999999 9999999 byobu-status menu'
 
 # Disable the f-key bindings
 bindkey -k k1

@@ -22,7 +22,6 @@ AC_OUTPUT(Makefile \
 	etc/profile.d/Makefile \
 	etc/profile.d/Z97-byobu.sh \
 	usr/bin/byobu \
-	usr/bin/byobu-config \
 	usr/bin/byobu-ctrl-a \
 	usr/bin/byobu-disable \
 	usr/bin/byobu-disable-prompt \
